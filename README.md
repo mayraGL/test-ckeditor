@@ -1,4 +1,4 @@
-# Angular CKEditor Example
+# CKEditor Example
  
 ## Getting Started
 
