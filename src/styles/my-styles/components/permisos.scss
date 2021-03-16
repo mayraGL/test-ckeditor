@@ -1,0 +1,26 @@
+.icon-seleccionado {
+    color: $blue;
+    background-color: #fff;
+}
+.icon-module {
+    font-size: 2rem!important;
+}
+.seleccionado,
+.seleccionado span {
+    background-color: $blue;
+    color: #fff;
+}
+.permission-header .mat-checkbox-layout {
+    margin-bottom: 0rem!important;
+}
+.permission-header {
+    border-radius: 0.2rem;
+    padding: 1.5rem !important;
+}
+.permission-header .title {
+    color: $blue;
+}
+.icon-help {
+    font-size: 1rem!important;
+    color: $gray-text;
+}

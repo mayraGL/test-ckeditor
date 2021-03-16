@@ -1,0 +1,32 @@
+/* Estilos de p-calendar de primeng */ 
+span.ui-calendar,
+span.ui-calendar input {
+    width: 100%;
+}
+span.ui-calendar input {
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    color: rgba(0, 0, 0, 0.38) !important;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+}
+span.ui-calendar input::placeholder {
+    color: rgba(0, 0, 0, 0.38) !important;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+}
+span.ui-calendar input:focus {
+    border: 0px;
+    border-bottom: 1px solid $blue;
+}
+.ui-datepicker-year {
+    margin-right: 10px;
+}
+span.ui-calendar input:disabled {
+    border-bottom: 1px;
+    border-bottom-style: dotted; 
+}

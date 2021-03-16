@@ -1,0 +1,23 @@
+/* Estilos encabezado de la pagina */
+
+.nav-icon.fa {
+    font: normal normal normal 18px/1 FontAwesome;
+}
+.header-btn .fa {
+    font: normal normal normal 18px/1 FontAwesome;
+}
+.app-header button.header-btn i {
+    font-size: 24px!important;
+    margin: 0px!important;
+}
+.app-header .mat-button{
+    min-height: 70px;
+}
+.group-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.group-label {
+    font-size: 1.4rem;
+    font-weight: $font-weight-normal;
+}

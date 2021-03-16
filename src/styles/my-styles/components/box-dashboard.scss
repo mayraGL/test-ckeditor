@@ -1,0 +1,51 @@
+/* Box dashboard */
+.box-dashboard {
+    position: relative;
+    border-radius: 0.2rem;
+}
+.box-dashboard .box-top, 
+.box-dashboard .box-bottom {
+    padding: 20px 15px;
+    font-size: $box-dashboard-font-size;
+    line-height: 1;
+    text-align: center;
+    font-weight: 300;
+}
+.box-dashboard .box-top i{
+    font-size: $box-dashboard-font-size;
+}
+.box-dashboard .box-info {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -12px;
+    text-align: center;
+}
+.box-dashboard .box-info span {
+    height: 24px;
+    display: inline-block;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    line-height: 14px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    font-size: 11px;
+    color: $gray;
+    border-radius: 1em;
+}
+.theme-gray .box-dashboard .box-info span {
+    background-color:  $theme_gray_header_bg_color;
+    color: #fff;
+}
+.theme-dark .box-dashboard .box-info span {
+    background-color:  $theme_dark_header_bg_color;
+    color: #fff;
+}
+.box-dashboard .box-bottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.box-currency {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: $gray-more-light;
+}

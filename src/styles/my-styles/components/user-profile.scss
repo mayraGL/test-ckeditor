@@ -1,0 +1,23 @@
+/* User profile en Header */
+.user-profile {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+}
+.user-profile-options {
+    margin-bottom: 1rem!important;
+}
+.user-profile-options button:hover{
+    color: $blue;
+}
+.user-profile-options i {
+    font-size: 22px;
+}
+.user-image-profile {
+    height: $user-image-profile;
+    width: $user-image-profile;
+    margin-bottom: 1rem;
+}
+.mat-menu-user-profile {
+    min-width: 250px!important;
+}

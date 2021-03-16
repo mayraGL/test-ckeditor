@@ -1,0 +1,27 @@
+.tarea-title {
+    font-size: 1.2em;
+    color: $blue;
+    margin: 0px;
+}
+.tarea-subject {
+    font-size: 1em;
+    color: $gray-text;
+    margin: 0px;
+    margin-top: 1rem;
+}
+.tarea-item-nombre {
+    color: $blue;
+}
+.tarea-item-seccion {
+    color: $gray-text;
+}
+.tarea-resultado {
+    font-size: 1.4em;
+}
+.tarea-opciones {
+  display: inline-flex;
+  flex-direction: column;
+}
+.tarea-opcion {
+    white-space: normal !important;
+}

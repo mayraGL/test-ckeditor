@@ -1,0 +1,27 @@
+/* Customizer Component */ 
+
+.section-header{
+    color: $blue;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+.customizer-header {
+    color: $blue;
+}
+.divider-sm {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.divider-lg {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.color-option-check .color-option-item {
+    margin-bottom: 0.7rem;
+}
+.customizer:before{
+    position: fixed; //Elimina el cuadro que sobresale del componente customizer
+}
+.customizer::before {
+    content: none!important;
+}

@@ -1,0 +1,35 @@
+/* Buttons */
+button i,
+button mat-icon {
+    margin-right: 0.5rem;
+    font-size: $icon-size!important;
+}
+button mat-icon{
+    vertical-align: inherit;
+}
+.form-group i {
+    font-size: $icon-size!important;
+}
+.btn-b-blue {
+    border: 1px solid $blue!important;
+}
+.btn-b-black {
+    border: 1px solid #000!important;
+}
+.btn-b-blue[disabled] {
+    color: $gray-light!important;
+    border: 1px solid $gray-light !important;
+}
+button[disabled]{
+    cursor: not-allowed!important;
+}
+button.full-width{
+    width: 100%!important;
+}
+.btn-tr-white {
+    border: 1px solid #fff!important;
+}
+.btn-tr-white span {
+    color: #fff;
+}
+

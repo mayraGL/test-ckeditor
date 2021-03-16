@@ -1,0 +1,15 @@
+.mat-tab-icon {
+    font-size: 1.3rem !important;
+    color: #848c91;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.mat-tab-body .toolbar-row {
+    margin: 0!important;
+}
+
+.mat-tab-label-template:hover span,
+.mat-tab-label-template:hover i {
+    color: $blue;
+}

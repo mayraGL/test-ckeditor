@@ -1,0 +1,56 @@
+/* boxes */
+.theme-gray .box-title {
+    color: #ffffff!important;
+}
+.theme-dark .box-title {
+    color: #ffffff!important;
+}
+.box-title {
+    color: $gray-text!important;
+}
+/* Box group dashboard */
+$box-group-font-size: 1.1rem;
+.box-group {
+    position: relative;
+    border-radius: 0.2rem;
+}
+.box-group:focus {
+    cursor: pointer;
+}
+.box-group .box-group-text {
+    padding: 20px 15px;
+    font-size: $box-group-font-size;
+    line-height: 1;
+    text-align: center;
+    font-weight: $font-weight-light;
+}
+.box-group .box-group-text span{
+    display: block;
+}
+.theme-gray .box-group .box-group-text span {
+    background-color:  $theme_gray_header_bg_color;
+    color: #fff;
+}
+.theme-dark .box-group .box-group-text span {
+    background-color:  $theme_dark_header_bg_color;
+    color: #fff;
+}
+.box-group-selected,
+.box-group-selected span {
+    background-color: $blue;
+    color: #fff;
+}
+.box-group-selected .box-group-info {
+    border: 1px solid #ffffff!important;
+}
+.box-group-name,
+.group-label {
+    font-weight: 400;
+}
+.group-nav-collapse {
+    padding: 1rem 0rem !important;
+}
+.group-nav-no-collapse {
+    padding: 1.5rem !important;
+    margin-left: 1rem!important;
+}

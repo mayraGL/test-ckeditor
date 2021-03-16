@@ -1,0 +1,135 @@
+
+#video-background {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+.login {
+	width: 100%;
+	height: 100%;
+	padding: 25%;
+	padding-top: 5%;
+  background-color: #fafafa;
+  background-image: url('./assets/images/GEERIMAGEN2.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@media (max-width: 768px){
+  .login {
+    background-image: none;
+    background-color: #ffffff;
+  }
+}
+.login-page {
+	background-color: transparent!important;
+}
+.login-box {
+  margin: auto;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 4rem;
+  width: 400px;
+  background-color: #ffffff;
+}
+.login-logo {
+	background-color: transparent!important;
+	font-size: 35px;
+	text-align: center;
+    font-weight: 300;
+    img {
+        max-width: 250px;
+        max-height: 150px;
+    }
+}
+.login-logo-sm {
+	background-color: transparent!important;
+	text-align: center;
+    img {
+        max-width: 250px;
+        max-height: 50px;
+    }
+}
+.login-box-body {
+	background-color: transparent!important;
+  background: transparent!important;
+  background-color: #000;
+}
+.login-box-msg,
+.login-logo a,
+.login-box-body label {
+	color: $gray-light;
+}
+.login-box-body .form-group {
+	text-align: left;
+}
+.login-box-body .form-group input {
+	background: transparent!important;
+}
+.login-box-body .form-group input:focus {
+  background: #ffffff!important;
+}
+.login-box-body .form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #d2d6de;
+}
+.login-box-msg {
+  margin: 0;
+  text-align: center;
+  padding: 0 20px 20px 20px;
+}
+.login-box-body {
+  background: #fff;
+  padding: 20px;
+  border-top: 0;
+}
+@media (max-width: 768px) {
+  .login-box {
+    width: 100%!important;
+    margin-top: 0px;
+  }
+  .login {
+   padding: 0%;
+  }
+}
+.content-inner-login {
+  width: 100%;
+}
+.user-login {
+  text-align: center;
+  padding-top: 1.5rem !important;
+}
+.user-login-image {
+  background-color: transparent;
+  border-radius: 50%;
+  max-height: 150px;
+}
+.login-footer {
+  color: #000000;
+  text-align: center;
+}
+.header-login {
+  width: 100%;
+  background-color: #fff;
+}
+.loading-text {
+  color: #000000;
+  text-align: center;
+}
+.spinner-login {
+  height: 100px!important;
+  width: 100px!important;
+}
+.user-name {
+  color: #000000;
+}
+.login-first-box{
+  padding: 2rem;
+  border-radius: 3px;
+}
+.login-links {
+
+}

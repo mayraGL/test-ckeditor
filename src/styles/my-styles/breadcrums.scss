@@ -1,0 +1,51 @@
+/* breadcrum */
+.title {
+    color: $blue;
+    font-size: $font-size-lg;
+}
+p.title{
+    margin: 0rem;
+}
+.title-section {
+    color: $blue;
+}
+.breadcrumb {
+    padding: 0px!important;
+    display: inline-flex;
+}
+.breadcrumb-item i {
+    font-size: 20px;
+}
+.breadcrumb-item a {
+    color: $gray-light;
+}
+.breadcrumb-item.active {
+    color: $blue;
+}
+.breadcrumb-item a {
+    color: $gray-light;
+}
+.theme-gray .breadcrumb-item a,
+.theme-dark .breadcrumb-item a {
+    color: #ffffff!important;
+}
+.title-gray {
+    color: $gray-light;
+    font-size: $font-size-lg;
+}
+.title-cyan {
+    color: $cyan;
+    font-size: $font-size-lg;
+}
+.title-purple {
+    color: $purple;
+    font-size: $font-size-lg;
+}
+.title-green {
+    color: $green;
+    font-size: $font-size-lg;
+}
+.welcome-title {
+    color: $blue;
+    font-size: 1.5rem;
+}

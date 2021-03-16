@@ -1,0 +1,112 @@
+/* Icons */
+.logo-60 {
+    max-height: 60px; 
+}
+.logo-50 {
+    max-height: 50px; 
+}
+.logo-40 {
+    max-height: 40px; 
+}
+.logo-head {
+    margin: 13px 0 0 0;
+}
+.img-20 {
+    max-height: 20px; 
+}
+.img-30 {
+    max-height: 30px; 
+}
+.img-40 {
+    max-height: 40px; 
+}
+.img-80 {
+    max-height: 80px; 
+    max-width: 100px;
+}
+.img-100 {
+    max-height: 100px; 
+}
+.img-b {
+    border: 1px solid $gray-lighter;
+}
+img.img60_60 {
+    max-width: 60px;
+    max-height: 60px; 
+}
+img.img70_70 {
+    max-width: 70px;
+    max-height: 70px; 
+}
+.img-150 {
+    max-width: 150px;
+    max-height: 150px; 
+}
+.fa-error {
+    color: $red!important;
+}
+.icon-active {
+    color: $gray-more-light;
+}
+button:disabled span .icon-active:hover {
+    color: $gray-more-light;
+    cursor: not-allowed;
+}
+.icon-active:hover {
+    color: $blue;
+}
+.icon-yes {
+    color: $green;
+}
+.icon-no {
+    color: $red;
+}
+.icon-alert {
+    color: $yellow;
+}
+.icon-top{
+   font-size: 30px!important;
+}
+.icon-active,
+.select-box {
+    cursor: pointer;
+}
+/* Image preview */
+.img-preview {
+  //background-color: #fff;
+  /*border: 1px solid #ddd;*/
+  border-radius: .25rem;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  max-width: $size-preview;
+  max-height: $size-preview;
+  //min-width: $size-preview;
+  //min-height: $size-preview;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+.light-img {
+    //background-color: $theme_gray_header_bg_color;
+    background-image: url('./assets/images/opacidad.png');
+    background-repeat: repeat;
+}
+.img-preview-update {
+  border-radius: .25rem;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  max-width: 15rem;
+  max-height: 15rem;
+  margin-bottom: 0.4rem;
+}
+.img-client {
+    max-height: 40px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+.theme-gray .mat-tab-icon,
+.theme-dark .mat-tab-icon {
+    color: #ffffff!important;
+}

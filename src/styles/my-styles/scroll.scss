@@ -1,0 +1,26 @@
+/* Button scroll top */
+#buttonScrollTop {
+  display: none;
+  position: fixed;
+  bottom: 35px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: $gray-light;
+  background-color: $gray-lighter;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+#buttonScrollTop:hover {
+  background-color: $blue;
+  color: $white;
+}
+/* scrooll */
+.vertical-scroll {
+    overflow-y: scroll;
+}
+.horizontal-scrooll {
+    overflow-x: scroll;
+}

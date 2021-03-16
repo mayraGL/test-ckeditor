@@ -1,0 +1,40 @@
+/* Porcentual card */
+.porcentual-card {
+  display: block;
+  position: relative;
+}
+.porcentual-card-title {
+  display: block;
+  text-align: right;
+  font-size: $font-size-porcentual-card;
+}
+.porcentual-card-legend {
+  display: block;
+  text-align: right;
+  font-size: $font-size-lg;
+  color: $gray-text;
+}
+.porcentual-card-blue {
+    color: $blue;
+}
+.porcentual-card-blue-light {
+    color: $teal;
+}
+.porcentual-card-purple {
+    color: $purple;
+}
+.porcentual-card-green {
+    color: $green;
+}
+.porcentual-card-orange {
+    color: $orange;
+}
+.porcentual-card-yellow {
+    color: $yellow;
+}
+.porcentual-card-pink {
+    color: $pink;
+}
+.porcentual-card-red {
+    color: $red;
+}

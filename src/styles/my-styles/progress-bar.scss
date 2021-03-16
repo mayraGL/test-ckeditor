@@ -1,0 +1,25 @@
+/* Estilos para el componente mat-progress-bar de angular material */ 
+
+.my-progress-bar .mat-progress-bar-buffer{
+    background-color: $gray-lighter!important;
+}
+
+.my-progress-bar-indigo .mat-progress-bar-fill::after {
+ background-color: $indigo;
+}
+
+.my-progress-bar-green .mat-progress-bar-fill::after{
+    background-color: $green;
+}
+
+.my-progress-bar-blue .mat-progress-bar-fill::after{
+    background-color: $blue;
+}
+
+.my-progress-bar-yellow  .mat-progress-bar-fill::after{
+ background-color: $yellow;
+}
+    
+.my-progress-bar-red .mat-progress-bar-fill::after {
+ background-color: $red;
+}

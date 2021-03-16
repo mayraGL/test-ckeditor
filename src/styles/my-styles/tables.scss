@@ -1,0 +1,137 @@
+/* Angular generic table */
+.row-selected {
+    background: #eff6fd!important;
+}
+tr td.clickable > span.gt-row-content::before {
+    content: "\F0DA";
+    font: normal normal normal 14px/1 FontAwesome;
+    display: inline-block;
+    width: 14px;
+    color: $gray-more-light!important;
+}
+tr.row-open td.clickable > span.gt-row-content::before {
+    content: "\F0D7";
+}
+table thead tr th.sort-asc::after,
+table thead tr th.sort-desc::after {
+    border: 0px!important;
+    vertical-align: initial!important;
+}
+.sort-string.sort-asc::after {
+    padding-left: 5px;
+    content: "\F15d";
+    font: normal normal normal 14px/1 FontAwesome;
+    display: inline-block;
+    width: 14px;
+    color: $gray-more-light;
+}
+.sort-string.sort-desc::after {
+    padding-left: 5px;
+    content: "\F15e";
+    font: normal normal normal 14px/1 FontAwesome;
+    display: inline-block;
+    width: 14px;
+    color: $gray-more-light;
+}
+.sort-number.sort-asc::after {
+    padding-left: 5px;
+    content: "\F162";
+    font: normal normal normal 14px/1 FontAwesome;
+    display: inline-block;
+    width: 14px;
+    color: $gray-more-light;
+}
+.sort-number.sort-desc::after {
+    padding-left: 5px;
+    content: "\F163";
+    font: normal normal normal 14px/1 FontAwesome;
+    display: inline-block;
+    width: 14px;
+    color: $gray-more-light;
+}
+.sort.sort-asc::after {
+    padding-left: 5px;
+    content: "\F160";
+    font: normal normal normal 14px/1 FontAwesome;
+    display: inline-block;
+    width: 14px;
+    color: $gray-more-light;
+}
+.sort.sort-desc::after {
+    padding-left: 5px;
+    content: "\F161";
+    font: normal normal normal 14px/1 FontAwesome;
+    display: inline-block;
+    width: 14px;
+    color: $gray-more-light;
+}
+.sort-enable:hover,
+.sort-asc:hover,
+.sort-string.sort-asc:hover::after,
+.sort-desc:hover,
+.sort-string.sort-desc:hover::after,
+tr td.clickable > span.gt-row-content:hover,
+tr td.clickable > span.gt-row-content:hover::before,
+tr.row-open td.clickable > span.gt-row-content:hover::before {
+    color: $blue;
+}
+.row-open {
+    background-color: $gray-lightest;
+    color: $gray;
+}
+td.icon-button {
+    padding: 0px!important;
+    padding-top: 0.5rem!important;
+}
+td.icon-button i {
+    font-size: $icon-size!important;
+    color: $gray-more-light;
+}
+td.icon-button i:hover {
+    color: $blue;
+}
+.table thead th,
+.table thead tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 0px!important;
+}
+.table th, .table td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.table .table {
+    background-color: transparent!important;
+}
+//CSS tablas con opcion stack
+@media(max-width: 768px){
+    .table-stacked thead {
+        display: none;
+    }
+    .table-stacked td.icon-button {
+        padding: 1em!important;
+    }
+    tr td.clickable > span.gt-row-content::before {
+        content: ""!important;
+    }
+    tr td.clickable > span.gt-row-content::after {
+        content: "\F0D9";
+        font: normal normal normal 14px/1 FontAwesome;
+        display: inline-block;
+        width: 14px;
+        color: $gray-more-light!important;
+    }
+}
+.inline-edit {
+    color: $blue;
+}
+
+.table-hide-headers th, .table-hide-headers thead {
+    visibility: collapse;
+}
+
+.table-hide-headers td  {
+    padding: 1.5rem!important;
+}
+
+.table span.gt-highlight-search {
+    background: yellow;
+}

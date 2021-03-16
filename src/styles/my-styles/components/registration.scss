@@ -1,0 +1,44 @@
+.registration-student {
+    width: 100%;
+    padding: 20%;
+    padding-top: 2rem;
+    background-color: #fafafa;
+    background-image: url('./assets/images/GEERIMAGEN9.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.registration-teacher {
+    width: 100%;
+    padding: 20%;
+    padding-top: 2rem;
+    background-color: #fafafa;
+    background-image: url('./assets/images/GEERIMAGEN3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+@media (max-width: 768px){
+  .registration-teacher,
+  .registration-student {
+    padding: 0%;
+    height: 100%;
+    background-image: none;
+    background-color: #ffffff;
+  }
+}
+.header-registration {
+    width: 100%;
+    background-color: #fff;
+}
+.registration-box{
+    margin: auto;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    width: 600px;
+    background-color: #ffffff;
+}

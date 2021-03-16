@@ -1,0 +1,42 @@
+/* text utilities */ 
+.text-blue {
+     color: $blue;
+}
+.text-light-blue {
+     color: $teal;
+}
+.text-red {
+     color: $red;
+}
+.text-yellow {
+     color: $yellow;
+}
+.text-green {
+     color: $green;
+}
+.text-dark-green {
+     color: $dark-green;
+}
+.text-purple {
+     color: $purple;
+}
+.text-gray {
+     color: $gray-text;
+}
+.text-orange {
+    color: $my-orange;
+}
+.text-cian {
+     color: $cyan;
+}
+.help-text {
+    color: $gray-more-light;
+}
+/* text links */
+.link {
+    color: #0a6ebd!important;
+}
+.link:focus,
+.link:hover {
+    text-decoration: underline!important;
+}

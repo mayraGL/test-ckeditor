@@ -1,0 +1,52 @@
+/* Value card */
+.value-card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+}
+.value-card-icon {
+    font-size: $font-size-value-card;
+}
+.value-card-value {
+    font-size: $font-size-value-card;
+}
+.value-title {
+    color: $gray-text;
+}
+.value-card-blue {
+    color: $blue;
+    border-top: 3px solid $blue;
+}
+.value-card-blue-light {
+    color: $teal;
+    border-top: 3px solid $teal;
+}
+.value-card-purple {
+    color: $purple;
+    border-top: 3px solid $purple;
+}
+.value-card-green {
+    color: $green;
+    border-top: 3px solid $green;
+}
+.value-card-orange {
+    color: $orange;
+    border-top: 3px solid $orange;
+}
+.value-card-yellow {
+    color: $yellow;
+    border-top: 3px solid $yellow;
+}
+.value-card-pink {
+    color: $pink;
+    border-top: 3px solid $pink;
+}
+.value-card-red {
+    color: $red;
+    border-top: 3px solid $red;
+}
+.value-card-max-height {
+    max-height: 107px;
+}

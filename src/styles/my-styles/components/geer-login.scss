@@ -1,0 +1,178 @@
+.geer-login-container {
+    height: 100%;
+    padding: 0px!important;
+    background-color: #ffffff;
+}
+.geer-login-container, .row-full-height, .col-full-height {
+    height: 100%;
+}
+.geer-login-main-content {
+    padding: 0px!important;
+    background-color: #a5d3ed;
+    border-right: 1px solid #eee;
+    background-image: url('./assets/images/geerlogin.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+.geer-login-form-content{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+@media (min-width: 576px){
+    .geer-login-main-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .geer-login-form-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .geer-login-main-content {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .geer-login-form-content {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+}
+@media (min-width: 992px) {
+    .geer-login-main-content {
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+    .geer-login-form-content {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+}
+@media (min-width: 1400px) {
+    .geer-login-main-content {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .geer-login-form-content {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+@media (min-width: 1600px) {
+    .geer-login-main-content {
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .geer-login-form-content {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+.geer-login-form {
+    padding: 30px 30px 30px 30px;
+}
+.geer-login-logo {
+	background-color: transparent!important;
+	font-size: 35px;
+	text-align: center;
+    font-weight: 300;
+    img {
+        max-width: 250px;
+        max-height: 150px;
+    }
+    margin-top: 40px;
+    @media (max-width: 575px) {
+        margin-top: 0px;
+    }
+}
+.geer-login-button {
+    border-radius: 20px!important;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(186, 185, 185,1)!important;
+    -moz-box-shadow: 0px 0px 10px 0px rgba(186, 185, 185,1)!important;
+    box-shadow: 0px 0px 10px 0px rgba(186, 185, 185,1)!important;
+}
+.geer-login-input {
+    padding-left: 20px!important;
+    border-radius: 20px!important;
+    border: 1px solid $blue !important;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(186, 185, 185,1)!important;
+    -moz-box-shadow: 0px 0px 10px 0px rgba(186, 185, 185,1)!important;
+    box-shadow: 0px 0px 10px 0px rgba(186, 185, 185,1)!important;
+}
+.geer-register-student {
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #0071bd;
+    background-color: #0071bd;
+    border-radius: 20px!important;
+    color: #ffffff;
+    text-decoration: none;
+}
+.geer-register-student a {
+    padding-left: 10px;
+    color: #ffffff;
+    font-size: 16px!important;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Montserrat", "Roboto";
+}
+.geer-register-student a:hover {
+    color: #a5d3ed;
+}
+.geer-register-student a:hover i {
+    color: #a5d3ed;
+    background-color: #ffffff;
+}
+.geer-register-teacher {
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #a5d3ed;
+    background-color: #a5d3ed;
+    color: #0071bd;
+    border-radius: 20px!important;
+}
+.geer-register-teacher a {
+    padding-left: 10px;
+    color: #0071bd;
+    font-size: 16px!important;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Montserrat", "Roboto";
+}
+.geer-register-teacher a:hover {
+    color: #ffffff;
+}
+.geer-register-teacher a:hover i {
+    color: #0071bd;
+    background-color: #ffffff;
+}
+.geer-login-icon-student {
+    background-color: #ffffff;
+    float: right;
+    color: #0071bd;
+    border-radius: 20px!important;
+    font-size: 25px!important;
+    border: 1px solid #BAB9B9;
+    //-webkit-box-shadow: inset 2px 2px 30px 0px rgba(186,185,185,0.3);
+    //-moz-box-shadow: inset 2px 2px 30px 0px rgba(186,185,185,0.3);
+    //box-shadow: inset 2px 2px 30px 0px rgba(186,185,185,0.3);
+}
+.geer-login-icon-teacher {
+    background-color: #ffffff;
+    //background-color: #BAB9B9;
+    float: right;
+    color: #a5d3ed;
+    font-size: 25px!important;
+    border-radius: 20px!important;
+    border: 1px solid #BAB9B9;
+    //-webkit-box-shadow: inset 2px 2px 30px 0px rgba(186,185,185,0.3);
+    //-moz-box-shadow: inset 2px 2px 30px 0px rgba(186,185,185,0.3);
+    //box-shadow: inset 2px 2px 30px 0px rgba(186,185,185,0.3);
+}

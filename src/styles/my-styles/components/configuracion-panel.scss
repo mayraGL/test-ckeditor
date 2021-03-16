@@ -1,0 +1,34 @@
+/* panel de configuracion de tablas */
+
+.configuracion-panel {
+    display: block;
+    width: 100%;
+    background-color: $gray-lightest;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.configuracion-panel .configuracion-panel-titulo {
+    color: $blue;
+    margin: 0px;
+}
+.configuracion-panel .configuracion-panel-mensaje {
+    color: $gray-more-light;
+    margin: 0px;
+}
+.configuracion-panel .configuracion-panel-encabezado {
+    margin-bottom: 0.5rem;
+}
+.configuracion-panel .configuracion-panel-opciones {
+    display: inline-flex;
+}
+.configuracion-panel-opciones .opcion {
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+div.theme-gray .configuracion-panel,
+div.theme-dark .configuracion-panel {
+    background-color: transparent;
+} 
+.configuracion-panel-footer {
+    margin-top: 0.5rem;
+}

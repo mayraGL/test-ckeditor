@@ -1,0 +1,105 @@
+.disabled {
+    cursor:not-allowed;
+}
+.invisible {
+    visibility: hidden !important; 
+}
+.hidden-xs-up {
+    display: none !important; }
+    @media (max-width: 575px) {
+    .hidden-xs-down {
+        display: none !important; } }
+
+    @media (min-width: 576px) {
+    .hidden-sm-up {
+        display: none !important; } }
+
+    @media (max-width: 767px) {
+    .hidden-sm-down {
+        display: none !important; } }
+
+    @media (min-width: 768px) {
+    .hidden-md-up {
+        display: none !important; } }
+
+    @media (max-width: 991px) {
+    .hidden-md-down {
+        display: none !important; } }
+
+    @media (min-width: 992px) {
+    .hidden-lg-up {
+        display: none !important; } }
+
+    @media (max-width: 1199px) {
+    .hidden-lg-down {
+        display: none !important; } }
+
+    @media (min-width: 1200px) {
+    .hidden-xl-up {
+        display: none !important; } 
+}
+.hidden-xl-down {
+    display: none !important; 
+}
+.top-0 {
+    top: 0px!important;
+}
+.draggable {
+    cursor: move; 
+    cursor: grab; 
+    cursor: -moz-grab; 
+    cursor: -webkit-grab; 
+}
+.center {
+    align-items: center;
+}
+.loading {
+    color: $blue!important;
+    font-size: $box-dashboard-font-size!important;
+}
+.ui-widget:disabled {
+    opacity: 1!important;
+}
+.agm-map-div, 
+agm-map {
+    height: 400px;
+    width: 100%;
+}
+.divider {
+   background-color: rgba(0, 0, 0, 0.15);
+    min-height: 1px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+/* borders */
+.border {
+   border: 1px solid $gray-lighter; 
+}
+.border-bottom {
+   border-bottom: 1px solid $gray-lighter; 
+}
+.border-right {
+   border-right: 1px solid $gray-lighter; 
+}
+.border-left {
+   border-right: 1px solid $gray-lighter; 
+}
+.br-10 {
+    border-radius: 10px;
+}
+/* padding */
+.pl-8 {
+    padding-left: 3rem !important;
+}
+.pl-12 {
+    padding-left: 4.5rem !important;
+}
+/* item list */
+.item-list {
+    font-size: $font-size-sm!important;
+    color: $gray-more-light;
+    margin-right: 0.5rem;
+}
+.margin-auto {
+    margin: 0 auto;
+}

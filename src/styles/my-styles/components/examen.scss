@@ -1,0 +1,30 @@
+.examen-title {
+    font-size: 1.2em;
+    color: $blue;
+    margin: 0px;
+}
+.examen-subject {
+    font-size: 1em;
+    color: $gray-text;
+    margin: 0px;
+    margin-top: 1rem;
+}
+.examen-item-nombre {
+    color: $blue;
+}
+.examen-item-seccion {
+    color: $gray-text;
+}
+.examen-resultado {
+    font-size: 1.4em;
+}
+.examen-opciones {
+    display: inline-flex;
+    flex-direction: column;
+}
+.examen-opcion {
+    white-space: normal !important;
+}
+.examen-opcion-editor {
+    padding: 1.5rem 1.5rem 0 1.5rem!important;
+}

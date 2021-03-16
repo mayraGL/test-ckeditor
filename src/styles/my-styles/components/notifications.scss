@@ -1,0 +1,45 @@
+.notifications-menu .mat-menu-content {
+    padding: 0px!important;
+}
+mat-list.notifications-list {
+    padding: 0px!important;
+}
+mat-list-item.notification-header {
+    border-bottom: 1px solid $gray-lighter;
+    height: 30px!important;
+    background-color: $gray-lightest;
+}
+mat-list-item.notification-header .notification-header-title  {
+    color: $blue;
+    font-size: $font-size-sm!important;
+    text-transform: uppercase;
+}
+mat-list-item.notification-item {
+    border-bottom: 1px solid $gray-lighter;
+}
+mat-list-item.notification-item i.mat-list-icon {
+    color: $gray-more-light;
+}
+mat-list-item.notification-item .mat-list-text {
+    padding-left: 10px!important;
+}
+mat-list-item.notification-item .mat-list-text .notification-title {
+    font-size: $font-size-sm!important;
+    text-transform: uppercase;
+    color: $gray-more-light;
+}
+mat-list-item.notification-item .mat-list-text .notification-description {
+    font-size: $font-size-base!important;
+    color: $gray-more-light;
+}
+mat-list-item.notification-item .mat-list-text .notification-date {
+    font-size: $font-size-sm!important;
+    color: $gray-more-light;
+    text-align: right;
+}
+.mat-list-item-content:hover {
+    background-color: $gray-lightest!important;   
+}
+.mat-list-item-pending {
+    background-color: $blue!important;   
+}
