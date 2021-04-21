@@ -16,10 +16,6 @@ Run the app using:
 npm install
 ```
 
-Replace the files in the node_modules/@ckeditor/ckeditor5-build-classic/build folder with the files from the following link. These are the files from the special build we made to integrate ckeditor with MathType.
-
-https://drive.google.com/file/d/1EJr4nyTYpSG8SiXJATc_N2Q5zkJDi4P7/view?usp=sharing
-
 Start the app 
 
 ```bash
